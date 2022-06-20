@@ -1,1 +1,1 @@
-"# SmartHomeControlPlatformBasedOnRaspberryPie" 
+# 基于树莓派的智能家居控制平台
