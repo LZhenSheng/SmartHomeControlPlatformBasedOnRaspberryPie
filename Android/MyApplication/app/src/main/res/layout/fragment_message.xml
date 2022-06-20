@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <View style="@style/MyView" />
+
+            <TextView
+                android:text="温度湿度"
+                android:textColor="@android:color/holo_green_light"
+                android:id="@+id/indicator_iv2"
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <View
+                style="@style/MyView" />
+
+            <TextView
+                android:text="设备控制"
+                android:id="@+id/indicator_iv3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <View style="@style/MyView" />
+
+            <TextView
+                android:text="火警监控"
+                android:id="@+id/indicator_iv4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <View style="@style/MyView" />
+        </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

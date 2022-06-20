@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical"
+    tools:context=".IntroductActivity">
+
+    <ImageView
+        android:id="@+id/finish"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/left"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来自小派的自我介绍"/>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/xiaopai"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您好，我是小派，小派是一款智能的家居控制终端。有语音控制和微信小程序丙种控制方式呢！"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音控制：通过语音唤醒小派，小派会先对您进行人脸识别，人脸识别成功后就可以使用小派啦～可以试试对我说室内温湿度，今天的天气状况，开关灯，听歌等等。除此之外，小派还可以对家居安全进行监测，包括人体红外感应，室内烟雾监测。当发生异常情况，小派可以很好得保障家居安全哦。当然啦，如果你只是想跟小派聊聊天解解闷，小派也很乐意奉陪哦！"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="微信小程序控制：小派也可以通过小程序控制哦~视频流实时监控家居设备控制，，智能聊天室等等让您即使在户外，也可以对家居设备和安防实时监控，小派功能性和实用性都非常强大哟！"/>
+</LinearLayout>
